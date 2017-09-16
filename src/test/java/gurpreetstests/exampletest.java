@@ -8,15 +8,8 @@ import static org.junit.Assert.*;
  * Created by GP on 08/09/17.
  */
 public class exampletest {
-    String a = "gc";
-    String b = "gc";
 
 
-    @Test
-    public void blah() {
-        System.out.println("in BLAHHHH============");
-        assertEquals(a, b);
-    }
     @Test
     public void customSeperatorTest() {
         //Get file from resources folder
