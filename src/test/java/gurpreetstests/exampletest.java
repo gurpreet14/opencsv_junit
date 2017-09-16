@@ -21,12 +21,13 @@ public class exampletest {
     public void customSeperatorTest() {
         //Get file from resources folder
         String fileName = "testinputcase55.csv";
+        assertTrue(fileName.contains(".csv"));
         ClassLoader classLoader = getClass().getClassLoader();
         File file = new File(classLoader.getResource(fileName).getFile());
         System.out.println("Converting csv file seperated by ; into a string array");
 
         //        check if file name has the correct extension
-        assertTrue(fileName.contains(".csv"));
+
 
         try {
             CSVReader reader = new CSVReader(new FileReader(file), ';');

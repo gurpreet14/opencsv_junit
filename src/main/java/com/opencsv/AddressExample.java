@@ -31,6 +31,13 @@ public class AddressExample {
         while ((nextLine = reader.readNext()) != null) {
             System.out.println("Name: [" + nextLine[0] + "]\nAddress: [" + nextLine[1] + "]\nEmail: [" + nextLine[2] + "]");
         }
+        try {
+//            Thread.sleep(500000);
+        }
+        catch (Exception e)
+        {
+
+        }
 
         // Try writing it back out as CSV to the console
         CSVReader reader2 = new CSVReader(new FileReader(ADDRESS_FILE));

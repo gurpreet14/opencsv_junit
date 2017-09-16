@@ -40,6 +40,7 @@ resolvers ++= Seq(
 
 libraryDependencies ++= Seq(
   "junit" %  "junit" % "4.12" % "test",
+  "com.novocode" % "junit-interface" % "0.11" % "test",
   "org.apache.commons" %  "commons-lang3" % "3.6",
   "org.apache.commons" %  "commons-text" % "1.1",
   "commons-beanutils" %  "commons-beanutils" % "1.9.3",

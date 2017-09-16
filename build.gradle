@@ -27,4 +27,11 @@ dependencies {
 }
 
 mainClassName = "com.opencsv.AddressExample"
-
+//
+//sourceSets {
+//    main {
+//        java {
+//            srcDirs = ['src']
+//        }
+//    }
+//}
