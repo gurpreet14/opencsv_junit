@@ -45,3 +45,7 @@ Thread dump is taken with jstack and is comparable with values from visualvm.
 
 Similarly, memory histogram is captured using jmap and visualvm.
 
+The snapshots also show similarity between the information shown for the same process within different tools.
+
+Every snapshot has a suffix depicting the tool, information and the process id.
+
