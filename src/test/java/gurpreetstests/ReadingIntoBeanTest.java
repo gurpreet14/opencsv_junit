@@ -14,6 +14,7 @@ import java.io.*;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Created by GP on 10/09/17.
@@ -22,6 +23,7 @@ public class ReadingIntoBeanTest {
     @Test
     public void beanTest() {
         String fileName = "headertest.csv";
+        assertTrue(fileName.contains(".csv"));
         ClassLoader classLoader = getClass().getClassLoader();
 
         File file = new File(classLoader.getResource(fileName).getFile());
