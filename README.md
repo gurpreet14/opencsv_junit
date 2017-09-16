@@ -26,3 +26,22 @@ Tests are located in src/test/java/gurpreetstests
 
 Original tests of this application can be found in the first commit.
 This application was originally build by the owner using maven, hence it also contains a pom.xml file.
+
+Monitoring tools:
+
+Output of the monitoring tools is saved in the folder monitoring tools.
+
+There are two subfolders with suffix 7 and 16.
+7 and 16 indicate the number of csv records on which AddressExample class was run. Accordingly, outputs are saved in these folders.
+
+It can be seen that the memory used in the heap is greater when input size is greater. This is basically because of the increase in the function
+calls.
+
+Also, in cases where monitoring tools give the same info like jconsole and visualgc give the same number of gc collections.
+
+Screenshots are suffixed with the process id to show continuation within different tools.
+
+Thread dump is taken with jstack and is comparable with values from visualvm.
+
+Similarly, memory histogram is captured using jmap and visualvm.
+
