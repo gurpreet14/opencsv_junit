@@ -49,3 +49,10 @@ The snapshots also show similarity between the information shown for the same pr
 
 Every snapshot has a suffix depicting the tool, information and the process id.
 
+
+The tests are limited to reading into a bean and reading into an array. Writing to a file has not been included in the tests
+however, writing the output to the terminal is.
+
+Csv Files with and without header information is tested and two types of file seperators ", and ' " are used in csv input
+files for testing. Multi line and varying length inputs on each line are tested.
+
